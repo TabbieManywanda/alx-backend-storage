@@ -5,7 +5,7 @@
 
 SELECT
   band_name,
-  COALESCE(split, 2023) - formed AS lifespan
+  COALESCE(split, 2020) - formed AS lifespan
 FROM
   metal_bands
 WHERE
